@@ -1,3 +1,5 @@
+;;; -*- Mode:Lisp; Syntax:ANSI-Common-Lisp; Coding:utf-8 -*-
+
 ;;;; package.lisp
 
 (defpackage #:mml-speaker
@@ -7,4 +9,3 @@
            #:parse-mml
            #:demo-simple
            #:demo-song))
-
