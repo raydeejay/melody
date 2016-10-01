@@ -72,9 +72,9 @@
      :do (progn (when *debug* (format t "~S ~S~%" command parameter))
                 (ecase command
                   ((:A :A+ :B :C :C+ :D :D+ :E :F :F+ :G :G+)
-                   (beep (format nil "~A" (freq command :octave octave))
-                         (format nil "~D" (duration (or parameter length)
-                                                    tempo))))
+                   (beep-speaker (format nil "~A" (freq command :octave octave))
+                                 (format nil "~D" (duration (or parameter length)
+                                                            tempo))))
                   ((:P :R)
                    (sleep (/ (duration (or parameter length) tempo) 1000.0)))
                   (:L (setf length parameter)
@@ -125,9 +125,9 @@
                                  ((:A :B :C :D :E :F :G
                                       :A+ :B+ :C+ :D+ :E+ :F+ :G+
                                       :A- :B- :C- :D- :E- :F- :G-)
-                                  (beep-openal source
-                                               (freq command :octave octave)
-                                               (duration (or parameter length) tempo)))
+                                  (beep source
+                                        (freq command :octave octave)
+                                        (duration (or parameter length) tempo)))
                                  ((:P :R)
                                   (sleep (/ (duration (or parameter length) tempo)
                                             1000.0)))

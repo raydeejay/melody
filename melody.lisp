@@ -9,8 +9,8 @@
 
 ;; requires beep (sudo apt install beep)
 
-(defun play-mml (mml) (play-openal (remove nil (parse-mml mml))))
-(defun play-mml-speaker (mml) (play (remove nil (parse-mml mml))))
+(defun play-mml (mml) (play (remove nil (parse-mml mml))))
+(defun play-mml-speaker (mml) (play-speaker (remove nil (parse-mml mml))))
 
 
 
