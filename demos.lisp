@@ -1,6 +1,6 @@
 ;;; -*- Mode:Lisp; Syntax:ANSI-Common-Lisp; Coding:utf-8 -*-
 
-(in-package #:mml-speaker)
+(in-package #:melody)
 
 ;; demo code
 (defun demo-simple ()

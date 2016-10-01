@@ -1,11 +1,11 @@
 ;;; -*- Mode:Lisp; Syntax:ANSI-Common-Lisp; Coding:utf-8 -*-
 
-;;;; mml-speaker.lisp
+;;;; melody.lisp
 ;; (c} 2016 Sergi Reyner
 ;; MIT License
 ;; Work in progress!
 
-(in-package #:mml-speaker)
+(in-package #:melody)
 
 ;; requires beep (sudo apt install beep)
 

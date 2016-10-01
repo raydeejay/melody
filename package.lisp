@@ -2,7 +2,7 @@
 
 ;;;; package.lisp
 
-(defpackage #:mml-speaker
+(defpackage #:melody
   (:use #:cl #:esrap)
   (:export #:play
            #:play-mml

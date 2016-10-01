@@ -1,7 +1,7 @@
-;;;; mml-speaker.asd
+;;;; melody.asd
 
-(asdf:defsystem #:mml-speaker
-  :description "Describe mml-speaker here"
+(asdf:defsystem #:melody
+  :description "Describe melody here"
   :author "Your Name <your.name@example.com>"
   :license "Specify license here"
   :serial t
@@ -10,5 +10,5 @@
                (:file "parser")
                (:file "player")
                (:file "demos")
-               (:file "mml-speaker")))
+               (:file "melody")))
 

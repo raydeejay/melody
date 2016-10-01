@@ -1,8 +1,8 @@
 ;;; -*- Mode:Lisp; Syntax:ANSI-Common-Lisp; Coding:utf-8 -*-
 
-(in-package #:mml-speaker)
+(in-package #:melody)
 
-;;; "mml-speaker" goes here. Hacks and glory await!
+;;; "melody" goes here. Hacks and glory await!
 (defconstant +12th-root-of-2+ 1.0594630943593)
 
 (defparameter *debug* nil)
@@ -92,7 +92,7 @@
       (multiple-value-bind (snd for siz fre)
           ;; (alut:load-memory-from-file "/home/raydj/piano/a4-small.wav")
           ;; (alut:load-memory-waveform :sine 440.0 1.0 0.500)
-          (alut:load-memory-from-file "/home/raydj/lisp/mml-speaker/sega2.wav")
+          (alut:load-memory-from-file "/home/raydj/lisp/melody/sega2.wav")
         (setf data snd
               format for
               size siz
