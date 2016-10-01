@@ -1,5 +1,3 @@
-This is the stub README.txt for the "melody" project.
-
 # About Melody
 
 Melody is a Common Lisp package to parse strings containing MML
